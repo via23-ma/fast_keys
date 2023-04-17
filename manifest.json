@@ -1,0 +1,35 @@
+﻿{
+  "name": "Shortcuts",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "By using this extension you can use shortcuts to open different websites.",
+  "commands": {
+    "command1": {
+      "suggested_key": "Ctrl+Shift+1",
+      "description": "to open CodeChef."
+    },
+    "command2": {
+      "suggested_key": "Ctrl+Shift+2",
+      "description": "to open GitHub."
+    },
+    "command3": {
+      "suggested_key": "Ctrl+Shift+3",
+      "description": "to open Youtube."
+    }
+    ,
+    "command4": {
+      "suggested_key": "Ctrl+Shift+4",
+      "description": "to open Linkedin."
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Shortcuts",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "circle.png"
+    }
+  }
+}

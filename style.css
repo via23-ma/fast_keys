@@ -1,0 +1,10 @@
+*{
+    background: #1f2641;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#id_text{
+    height: 120px;
+    width: 400px;;
+}
